@@ -3,7 +3,7 @@ Params:
   year: "2023"
   title: "Gear Mill"
 
-baseURL:  "https://gearmill.org"
+baseURL:  "https://psaikido.github.io/gearmill.org/"
 languageCode: "en-gb"
 theme: "gearmill"
 description: ""
