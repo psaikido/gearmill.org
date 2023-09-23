@@ -1,0 +1,20 @@
+Params:
+  name: "hughie [at] hugle.uk"
+  year: "2023"
+  title: "Gear Mill"
+
+baseURL:  "https://gearmill.org"
+languageCode: "en-gb"
+theme: "gearmill"
+description: ""
+
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+

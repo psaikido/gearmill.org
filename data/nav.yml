@@ -1,0 +1,43 @@
+menu:
+
+- title: Home
+  url: /
+  children:
+    - title: About
+      url: /about/
+    - title: History
+      url: /history/
+    - title: Dedication
+      url: /dedication/
+    - title: Gallery
+      url: /galleries/gallery/
+
+- title: Retreat
+  url: /retreat-hut/
+  children:
+    - title: Retreat Hut
+      url: /retreat-hut/
+    - title: Booking
+      url: /booking/
+
+- title: Meditation
+  url: /mahamudra/
+  children:
+    - title: Mahamudra 
+      url: /mahamudra/
+    - title: Chan
+      url: /chan/
+    - title: Mindfulness
+      url: /mindfulness/
+
+- title: Chi Kung
+  url: /chi-kung/
+
+- title: Calendar
+  url: /calendar/
+
+- title: Contact
+  url: /contact/
+  children:
+    - title: Links 
+      url: /links/

@@ -1,0 +1,19 @@
+{{ define "main" }}
+	<div class="gallery">
+		<script src="/js/lightbox-2.6.min.js"></script>
+		<link href="/css/lightbox.css" rel="stylesheet" />
+
+		{{ range .Site.Data.galleries }}
+			{{ $galleryId := .id }}
+			{{ $imgDir := .imagefolder }}
+
+			{{ range .images }}
+				<div class="img">
+						<a href="{{ $imgDir }}/{{ .name }}" data-lightbox="{{ $galleryId }}" title="{{ .name }}">
+								<img src="{{ $imgDir }}/thumbs/{{ .thumb }}" class="thumb" />
+						</a>
+				</div>
+			{{ end }}
+		{{ end }}
+	</div>
+{{ end }}

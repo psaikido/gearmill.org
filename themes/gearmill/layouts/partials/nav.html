@@ -1,0 +1,42 @@
+<nav>
+	<button class="navbar-toggler" id="hamburger"
+			type="button" 
+			data-toggle="collapse" 
+			data-target="#nav-content" 
+			aria-controls="nav-content" 
+			aria-expanded="false" 
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon"></span>
+	</button>
+
+	{{ $currentPage := .RelPermalink }}
+
+	<ul id="primary-nav">
+		{{ range .Site.Data.nav.menu }}
+			{{ if .children }}
+				<li class="menuparent{{ if (eq .url $currentPage) }} menuactive{{ end }}">
+					<a class="menuparent" href="{{ .url }}" alt="{{ .title }}">{{ .title }}</a>
+
+					<ul>
+						{{ range .children }}
+							<li>
+								<a href="{{ .url }}" alt="{{ .title }}">{{ .title }}</a>
+							</li>
+						{{ end }}
+					</ul>
+				</li>
+			{{ else }}
+				<li class="menuparent{{ if (eq .url $currentPage) }} menuactive{{ end }}">
+					<a class="menuparent" href="{{ .url }}" alt="{{ .title }}">{{ .title }}</a>
+				</li>
+			{{ end }}
+		{{ end }}
+
+		<li>
+			<a href="#" id="dark-mode-button"><img src="/images/light-dark.png" height="25" /></a>
+		</li>
+	</ul>
+</nav>
+

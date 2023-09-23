@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" class="">
+
+	{{ partial "head.html" . }}
+
+	<body>
+		<div class="grid-wrap">
+			<header>
+				{{ .Site.Params.title }}
+			</header>
+
+			{{ partial "nav.html" . }}
+
+			<main>
+					{{ block "main" . }}
+					{{ end }}
+			</main>
+		</div>
+
+		<script type="text/javascript" src="/js/cookie-toggler.js"> </script>
+	</body>
+</html>

@@ -1,0 +1,110 @@
+- id: gallery1
+  description: This is the first gallery
+  imagefolder: /images/gallery
+  images:
+  - name: IMG_2350.jpeg
+    thumb: 56-3.jpeg
+  - name: IMG_2352.jpeg
+    thumb: 55-3.jpeg
+  - name: IMG_2392.jpeg
+    thumb: 61-3.jpeg
+  - name: IMG_2423.jpeg
+    thumb: 60-3.jpeg
+  - name: IMG_2427.jpeg
+    thumb: 58-3.jpeg
+  - name: IMG_2432.jpeg
+    thumb: 59-3.jpeg
+  - name: IMG_2436.jpeg
+    thumb: 57-3.jpeg
+  - name: IMG_1041.jpeg
+    thumb: 18-3.jpeg
+  - name: IMG_1028.jpeg
+    thumb: 23-3.jpeg
+  - name: IMG_1364.jpeg
+    thumb: 40-3.jpeg
+  - name: IMG_1636.jpeg
+    thumb: 26-3.jpeg
+  - name: IMG_1644.jpeg
+    thumb: 17-3.jpeg
+  - name: IMG_1647.jpeg
+    thumb: 35-3.jpeg
+  - name: IMG_1685.jpeg
+    thumb: 47-3.jpeg
+  - name: IMG_1696.jpeg
+    thumb: 48-3.jpeg
+  - name: IMG_1746.jpeg
+    thumb: 53-3.jpeg
+  - name: IMG_1752.jpeg
+    thumb: 52-3.jpeg
+  - name: IMG_1760.jpeg
+    thumb: 43-3.jpeg
+  - name: IMG_1761.jpeg
+    thumb: 22-3.jpeg
+  - name: IMG_1768.jpeg
+    thumb: 51-3.jpeg
+  - name: IMG_1795.jpeg
+    thumb: 54-3.jpeg
+  - name: IMG_1797.jpeg
+    thumb: 50-3.jpeg
+  - name: IMG_2018.jpeg
+    thumb: 49-3.jpeg
+  - name: IMG_2186.jpeg
+    thumb: 37-3.jpeg
+  - name: IMG_2189.jpeg
+    thumb: 24-3.jpeg
+  - name: IMG_2219.jpeg
+    thumb: 34-3.jpeg
+  - name: IMG_2226.jpeg
+    thumb: 28-3.jpeg
+  - name: IMG_2404.jpeg
+    thumb: 14-3.jpeg
+  - name: IMG_4736.jpeg
+    thumb: 20-3.jpeg
+  - name: IMG_4740.jpeg
+    thumb: 27-3.jpeg
+  - name: IMG_4789.jpeg
+    thumb: 41-3.jpeg
+  - name: IMG_4795.jpeg
+    thumb: 15-3.jpeg
+  - name: IMG_4822.jpeg
+    thumb: 30-3.jpeg
+  - name: IMG_4842.jpeg
+    thumb: 29-3.jpeg
+  - name: IMG_4860.jpeg
+    thumb: 45-3.jpeg
+  - name: IMG_4873.jpeg
+    thumb: 31-3.jpeg
+  - name: IMG_4889.jpeg
+    thumb: 36-3.jpeg
+  - name: IMG_5088.jpeg
+    thumb: 33-3.jpeg
+  - name: IMG_5110.jpeg
+    thumb: 38-3.jpeg
+  - name: IMG_5130.jpeg
+    thumb: 25-3.jpeg
+  - name: IMG_5157.jpeg
+    thumb: 19-3.jpeg
+  - name: IMG_5914.jpeg
+    thumb: 44-3.jpeg
+  - name: IMG_5915.jpeg
+    thumb: 21-3.jpeg
+  - name: IMG_6127.jpeg
+    thumb: 42-3.jpeg
+  - name: IMG_8209.jpeg
+    thumb: 39-3.jpeg
+  - name: IMG_8229.jpeg
+    thumb: 16-3.jpeg
+  - name: IMG_8469.jpeg
+    thumb: 2-3.jpeg
+  - name: IMG_8484.jpeg
+    thumb: 32-3.jpeg
+  - name: gearMill02.jpeg
+    thumb: 7-3.jpeg
+  - name: housePath.jpg
+    thumb: 12-3.jpg
+  - name: hut.jpg
+    thumb: 5-3.jpg
+  - name: kwanyin.jpg
+    thumb: 6-3.jpg
+  - name: peaceFlag.jpeg
+    thumb: 9-3.jpeg
