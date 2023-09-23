@@ -1,14 +1,13 @@
+baseURL:  'http://localhost:1313/'
+languageCode: 'en-gb'
+theme: "gearmill"
+
+enableRobotsTXT: true
+
 Params:
   name: "hughie [at] hugle.uk"
   year: "2023"
   title: "Gear Mill"
-
-baseURL:  "https://psaikido.github.io/gearmill.org/"
-languageCode: "en-gb"
-theme: "gearmill"
-description: ""
-
-enableRobotsTXT: true
 
 markup:
   goldmark:
