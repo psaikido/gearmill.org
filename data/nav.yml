@@ -33,6 +33,15 @@ menu:
 - title: Chi Kung
   url: /chi-kung/
 
+- title: Aluna Movement 
+  url: /aluna/aluna/
+  children:
+    - title: Mindfulness
+      url: /aluna/mindfulness/
+    - title: Chi-Kung
+      url: /aluna/chi-kung/
+
+
 - title: Calendar
   url: /calendar/
 

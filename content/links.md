@@ -10,7 +10,6 @@ title: "Links"
 
 - [Marpa House](http://www.marpahouse.org.uk/)
 - [Western Chan Fellowship](https://westernchanfellowship.org)
-- [Aluna Movement](https://alunamovement.org/)
 - [Cornwall Buddhists](http://www.cornwallbuddhists.org/)
 - [Mindfulness Cornwall](http://www.mindfulnesscornwall.co.uk/)
 - [Mindfulness in Schools](https://www.mindfulnessinschools.org)

@@ -22,6 +22,7 @@ body {
 		grid-area: header;
 		margin-top: 15px;
 		margin-bottom: 15px;
+		text-align: left;
 	}
 
 	nav {
@@ -33,18 +34,16 @@ body {
 
 		@include screen-width('medium') {
 			.two-cols {
-				display: grid;
-				grid-template-rows: auto;
-				grid-template-columns: 1fr 1fr;
-				grid-template-areas: "left right";
+				display: flex;
+				flex-wrap: wrap;
 
 				.col-left {
-					grid-area: left;
-					padding-right: 20px;
+					flex-basis: 49%;
+					padding-right: 5%;
 				}
 
 				.col-right {
-					grid-area: right;
+					flex-basis: 49%;
 				}
 			}
 		}
@@ -54,8 +53,8 @@ body {
 		margin: 0 auto;
 		grid-template-rows: auto;
 		grid-template-columns: 
-		minmax(210px, 300px) 
-		minmax(600px, 900px);
+		minmax(110px, 300px) 
+		minmax(700px, 900px);
 		grid-template-areas: 
 		"header nav"
 		"main main";

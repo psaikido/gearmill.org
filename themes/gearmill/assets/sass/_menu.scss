@@ -8,7 +8,6 @@ nav {
 			display: block;
 			width: 2em;
 			height: 3px;
-			vertical-align: middle;
 			content: "";
 			background: no-repeat center center;
 			background-size: 100% 100%;
@@ -24,11 +23,10 @@ nav {
 	ul#primary-nav {
 		display: none;
 		margin-top: -37px;
-		margin-left: 34px;
-
 
 		@include screen-width('medium') {
-			display: block;
+			display: flex;
+			align-items: center;
 			margin: 0;
 		}
 
@@ -40,8 +38,9 @@ nav {
 			white-space: nowrap;
 
 			@include screen-width('medium') {
-				float: left;
-				padding: 0 20px 0 20px;
+				flex-grow: 1;
+				margin-left: 6px;
+				padding: 0 2px 0 2px;
 				border-right: 1px solid var(--border-major);
 
 				&:last-child {
@@ -91,7 +90,7 @@ nav {
 		color: var(--text-link);
 
 		a {
-			font-size: 17px;
+			font-size: 1.1rem;
 			font-weight: bold;
 		}
 
