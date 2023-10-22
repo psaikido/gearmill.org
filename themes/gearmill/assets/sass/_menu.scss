@@ -28,20 +28,22 @@ nav {
 			display: flex;
 			align-items: center;
 			margin: 0;
+			padding: 0;
 		}
 
 		li {
-			position: relative;
-			height: 35px;
 			line-height: 35px;
 			padding: 3px;
 			white-space: nowrap;
+			border-bottom: 1px solid var(--border-major);
 
 			@include screen-width('medium') {
 				flex-grow: 1;
+				height: 35px;
 				margin-left: 6px;
 				padding: 0 2px 0 2px;
 				border-right: 1px solid var(--border-major);
+				border-bottom: none;
 
 				&:last-child {
 					border: none;
@@ -59,14 +61,19 @@ nav {
 		}
 
 		li.menuparent ul {
-			display: none;
-			position: absolute;
-			top: 0;
-			left: 70px;
-			z-index: 1;
+			display: flex;
+			flex-direction: column;
 			background-color: var(--bkg-minor);
 
+			li {
+				flex-grow: 1;
+				border-bottom: none;
+			}
+
 			@include screen-width('medium') {
+				display: none;
+				position: absolute;
+				z-index: 1;
 				top: 35px;
 				left: -39px;
 
